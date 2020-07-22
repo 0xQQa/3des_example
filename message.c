@@ -52,7 +52,7 @@ int check_file_dec(char * path_to_file, int flags){
 int validate_data(int n_read){
     if(n_read != 8 * sizeof(unsigned char))
         if (n_read != EOF) {
-            printf("File corrupted! Rode %d/32\n", n_read);
+            printf("File corrupted! Rode %d/8\n", n_read);
             return -1;
         }
 
