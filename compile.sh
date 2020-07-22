@@ -1,0 +1,1 @@
+clang main.c algorithm.c message.c -o 3des -lm
